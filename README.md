@@ -9,5 +9,5 @@ some design patterns implemented by Golang
 
 ### todo
 - [ ] Abstract Factory Pattern 
-- [-] Builder Pattern
+- [x] Builder Pattern
 
