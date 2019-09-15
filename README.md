@@ -8,6 +8,6 @@ some design patterns implemented by Golang
 - Builder Pattern
 
 ### todo
-- [ ] Abstract Factory Pattern 
+- [] Abstract Factory Pattern 
 - [x] Builder Pattern
 
