@@ -1,14 +1,13 @@
 package main
 
-import (
-	"Golang-Design-Pattern/CreationalPatterns/SingletonPattern"
-)
+import "Golang-Design-Pattern/CreationalPatterns/BuilderPattern"
 
 func main() {
 	//FactoryPattern.Test()
 
-	ins := SingletonPattern.GetInstance()
-	SingletonPattern.Test(ins)
-	ins2 := SingletonPattern.GetInstance()
-	SingletonPattern.Test(ins2)
+	//SingletonPattern.Test()
+
+	//PrototypePattern.Test()
+
+	BuilderPattern.Test()
 }
