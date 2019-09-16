@@ -1,4 +1,4 @@
-package AbstractFactoryPattern
+package AbstractFactory
 
 import (
 	"fmt"

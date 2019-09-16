@@ -12,4 +12,5 @@ some design patterns implemented by Golang
 ### todo
 - [x] Abstract Factory Pattern 
 - [x] Builder Pattern
+- [ ] Adapter
 

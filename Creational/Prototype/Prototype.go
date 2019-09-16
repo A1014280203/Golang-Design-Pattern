@@ -1,4 +1,4 @@
-package PrototypePattern
+package Prototype
 
 import (
 	"bytes"

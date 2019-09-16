@@ -1,4 +1,4 @@
-package BuilderPattern
+package Builder
 
 import (
 	"fmt"

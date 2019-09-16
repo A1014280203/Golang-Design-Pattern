@@ -1,15 +1,15 @@
 package main
 
-import "Golang-Design-Pattern/CreationalPatterns/ObjectPool"
+import "Golang-Design-Pattern/Creational/ObjectPool"
 
 func main() {
-	//FactoryPattern.Test()
+	//Factory.Test()
 
-	//SingletonPattern.Test()
+	//Singleton.Test()
 
-	//PrototypePattern.Test()
+	//Prototype.Test()
 
-	//BuilderPattern.Test()
+	//Builder.Test()
 
 	ObjectPool.Test()
 }
