@@ -1,8 +1,11 @@
 package AbstractFactoryPattern
 
-import "fmt"
+import (
+	"fmt"
+	"strings"
+)
 
-// 为形状创建一个接口
+// 创建一个接口
 type Shape interface {
 	draw()
 }
@@ -29,28 +32,39 @@ func (c Circle) draw() {
 	fmt.Println("Inside Circle::draw() method.")
 }
 
-// 为颜色创建一个接口
-type Color interface {
-	fill()
+// 创建一个工厂，生成基于给定信息的实例
+type ShapeFactory struct {
 }
 
-type Red struct {
+func (s ShapeFactory) GetShape(shapeType string) Shape {
+	if shapeType == "" {
+		return nil
+	} else if strings.ToLower(shapeType) == "circle" {
+		return new(Circle)
+	} else if strings.ToLower(shapeType) == "rectangle" {
+		return new(Rectangle)
+	} else if strings.ToLower(shapeType) == "square" {
+		return new(Square)
+	} else {
+		return nil
+	}
 }
 
-func (r Red) fill() {
-	fmt.Println("Inside Red::fill() method.")
+// 使用该工厂，通过传递类型信息来获取实体类的对象。
+func Test() {
+	shapeFactory := ShapeFactory{}
+
+	shape1 := shapeFactory.GetShape("CIRCLE")
+	shape1.draw()
+
+	shape2 := shapeFactory.GetShape("RECTANGLE")
+	shape2.draw()
+
+	shape3 := shapeFactory.GetShape("SQUARE")
+	shape3.draw()
 }
 
-type Green struct {
-}
-
-func (r Green) fill() {
-	fmt.Println("Inside Green::fill() method.")
-}
-
-type Blue struct {
-}
-
-func (r Blue) fill() {
-	fmt.Println("Inside Blue::fill() method.")
-}
+/*
+ refer: https://en.wikipedia.org/wiki/Abstract_factory_pattern#Golang_example
+ 通过一个结构体方法提供创建不同结构体实例，这些结构体都属于同一个类别（接口类型）
+*/

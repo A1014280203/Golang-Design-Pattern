@@ -6,8 +6,10 @@ some design patterns implemented by Golang
 - Singleton Pattern
 - Prototype Pattern
 - Builder Pattern
+- Abstract Factory Pattern
+- Object Pool
 
 ### todo
-- [ ] Abstract Factory Pattern 
+- [x] Abstract Factory Pattern 
 - [x] Builder Pattern
 

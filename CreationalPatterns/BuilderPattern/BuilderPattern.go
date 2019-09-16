@@ -64,6 +64,7 @@ func Test() {
 }
 
 /*
+refer: http://blog.ralch.com/tutorial/design-patterns/golang-builder/
 1. 通过定义不同的builder控制实例化的过程
 2. 通过接口变量调用具体方法，类似虚函数
 */

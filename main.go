@@ -1,6 +1,6 @@
 package main
 
-import "Golang-Design-Pattern/CreationalPatterns/BuilderPattern"
+import "Golang-Design-Pattern/CreationalPatterns/ObjectPool"
 
 func main() {
 	//FactoryPattern.Test()
@@ -9,5 +9,7 @@ func main() {
 
 	//PrototypePattern.Test()
 
-	BuilderPattern.Test()
+	//BuilderPattern.Test()
+
+	ObjectPool.Test()
 }

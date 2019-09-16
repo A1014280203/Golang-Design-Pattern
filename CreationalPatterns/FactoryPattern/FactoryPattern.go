@@ -1,69 +1,38 @@
 package FactoryPattern
 
-import (
-	"fmt"
-	"strings"
-)
+import "fmt"
 
-// 创建一个接口
-type Shape interface {
-	draw()
+// Factory and car interfaces
+type CarFactory interface {
+	makeCar() Car
 }
 
-// 创建实现接口的结构体
-type Rectangle struct {
+type Car interface {
+	getType() string
 }
 
-func (r Rectangle) draw() {
-	fmt.Println("Inside Rectangle::draw() method.")
+// Concrete implementations of the factory and car
+type SedanFactory struct {
 }
 
-type Square struct {
+func (s SedanFactory) makeCar() Car {
+	return Sedan{}
 }
 
-func (s Square) draw() {
-	fmt.Println("Inside Square::draw() method.")
+type Sedan struct {
 }
 
-type Circle struct {
+func (s Sedan) getType() string {
+	return "Sedan"
 }
 
-func (c Circle) draw() {
-	fmt.Println("Inside Circle::draw() method.")
-}
-
-// 创建一个工厂，生成基于给定信息的实例
-type ShapeFactory struct {
-}
-
-func (s ShapeFactory) GetShape(shapeType string) Shape {
-	if shapeType == "" {
-		return nil
-	} else if strings.ToLower(shapeType) == "circle" {
-		return new(Circle)
-	} else if strings.ToLower(shapeType) == "rectangle" {
-		return new(Rectangle)
-	} else if strings.ToLower(shapeType) == "square" {
-		return new(Square)
-	} else {
-		return nil
-	}
-}
-
-// 使用该工厂，通过传递类型信息来获取实体类的对象。
 func Test() {
-	shapeFactory := ShapeFactory{}
-
-	shape1 := shapeFactory.GetShape("CIRCLE")
-	shape1.draw()
-
-	shape2 := shapeFactory.GetShape("RECTANGLE")
-	shape2.draw()
-
-	shape3 := shapeFactory.GetShape("SQUARE")
-	shape3.draw()
+	factory := SedanFactory{}
+	car := factory.makeCar()
+	fmt.Println(car.getType())
 }
 
 /*
- 通过一个结构体方法提供创建不同结构体实例，这些结构体都属于同一个类别（接口类型）
+refer: https://en.wikipedia.org/wiki/Factory_method_pattern
+使用工厂模式而不是直接实例化结构体可以更好地遵循SOLID（https://en.wikipedia.org/wiki/SOLID）原则
 */
