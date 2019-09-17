@@ -9,8 +9,11 @@ some design patterns implemented by Golang
 - Abstract Factory Pattern
 - Object Pool
 
+### Structural
+- Adapter
+
 ### todo
 - [x] Abstract Factory Pattern 
 - [x] Builder Pattern
-- [ ] Adapter
+- [x] Adapter
 

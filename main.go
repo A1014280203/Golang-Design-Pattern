@@ -1,6 +1,6 @@
 package main
 
-import "Golang-Design-Pattern/Creational/ObjectPool"
+import "Golang-Design-Pattern/Structural/Adapter"
 
 func main() {
 	//Factory.Test()
@@ -11,5 +11,7 @@ func main() {
 
 	//Builder.Test()
 
-	ObjectPool.Test()
+	//ObjectPool.Test()
+
+	Adapter.Test()
 }
