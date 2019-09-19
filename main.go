@@ -1,6 +1,8 @@
 package main
 
-import "Golang-Design-Pattern/Structural/Adapter"
+import (
+	"Golang-Design-Pattern/Structural/Composite"
+)
 
 func main() {
 	//Factory.Test()
@@ -13,5 +15,9 @@ func main() {
 
 	//ObjectPool.Test()
 
-	Adapter.Test()
+	//Adapter.Test()
+
+	//Bridge.Test()
+
+	Composite.Test()
 }

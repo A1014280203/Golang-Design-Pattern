@@ -11,6 +11,8 @@ some design patterns implemented by Golang
 
 ### Structural
 - Adapter
+- Bridge
+- Composite
 
 ### todo
 - [x] Abstract Factory Pattern 

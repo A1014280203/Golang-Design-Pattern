@@ -9,6 +9,12 @@ type PureWater float32
 type River struct {
 }
 
+// irrigate
+func (r *River) Irrigate() RiverWater {
+	fmt.Println("Irrigating")
+	return 1
+}
+
 // get some water from river
 func (r *River) Little() RiverWater {
 	fmt.Println("Get water from river")

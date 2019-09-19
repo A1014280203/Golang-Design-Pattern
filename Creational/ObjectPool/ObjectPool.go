@@ -57,16 +57,19 @@ func (p *Pool) letWorkerRest(w *Worker) {
 	p.Lock()
 	defer p.Unlock()
 	p.available = append(p.available, w)
-	if w == p.inuse[0] {
-		p.inuse = p.inuse[1:]
-	} else if w == p.inuse[len(p.inuse)-1] {
-		p.inuse = p.inuse[:len(p.inuse)-1]
-	} else {
-		for i, v := range p.inuse {
-			if v == w {
-				p.inuse = append(p.inuse[:i], p.inuse[i+1:]...)
-				break
-			}
+	for i, v := range p.inuse {
+		if v == w {
+			/*
+				 var a[] int = make([]int, 5) // len=5
+				panic:
+					a[5]
+					a[-1]
+				work:
+					a[5:] = [] // a[len:] = []
+					a[:0] = []
+			*/
+			p.inuse = append(p.inuse[:i], p.inuse[i+1:]...)
+			break
 		}
 	}
 }
