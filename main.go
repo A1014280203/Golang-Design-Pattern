@@ -1,7 +1,7 @@
 package main
 
 import (
-	"Golang-Design-Pattern/Structural/Composite"
+	"Golang-Design-Pattern/Structural/Decorator"
 )
 
 func main() {
@@ -19,5 +19,7 @@ func main() {
 
 	//Bridge.Test()
 
-	Composite.Test()
+	//Composite.Test()
+
+	Decorator.Test()
 }
