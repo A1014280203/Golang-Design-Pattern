@@ -1,7 +1,7 @@
 package main
 
 import (
-	"Golang-Design-Pattern/Structural/Proxy"
+	"Golang-Design-Pattern/Structural/Flyweight"
 )
 
 func main() {
@@ -23,5 +23,7 @@ func main() {
 
 	//Decorator.Test()
 
-	Proxy.Test()
+	//Proxy.Test()
+
+	Flyweight.Test()
 }
