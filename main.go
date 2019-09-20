@@ -1,7 +1,7 @@
 package main
 
 import (
-	"Golang-Design-Pattern/Structural/Decorator"
+	"Golang-Design-Pattern/Structural/Proxy"
 )
 
 func main() {
@@ -21,5 +21,7 @@ func main() {
 
 	//Composite.Test()
 
-	Decorator.Test()
+	//Decorator.Test()
+
+	Proxy.Test()
 }
