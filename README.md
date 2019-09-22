@@ -13,6 +13,11 @@ some design patterns implemented by Golang
 - Adapter
 - Bridge
 - Composite
+- Decorator
+- Facade
+- Filter
+- Flyweight
+- Proxy
 
 ### todo
 - [x] Abstract Factory Pattern 
