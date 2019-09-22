@@ -1,7 +1,7 @@
 package main
 
 import (
-	"Golang-Design-Pattern/Structural/Facade"
+	"Golang-Design-Pattern/Structural/Filter"
 )
 
 func main() {
@@ -27,5 +27,7 @@ func main() {
 
 	//Flyweight.Test()
 
-	Facade.Test()
+	//Facade.Test()
+
+	Filter.Test()
 }
