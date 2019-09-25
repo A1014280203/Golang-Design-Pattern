@@ -19,6 +19,9 @@ some design patterns implemented by Golang
 - Flyweight
 - Proxy
 
+### Behavioral
+- ChainOfResponsibility
+
 ### todo
 - [x] Abstract Factory Pattern 
 - [x] Builder Pattern

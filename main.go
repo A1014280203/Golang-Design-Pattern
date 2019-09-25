@@ -1,7 +1,7 @@
 package main
 
 import (
-	"Golang-Design-Pattern/Structural/Filter"
+	"Golang-Design-Pattern/Behavioral/ChainOfResponsibility"
 )
 
 func main() {
@@ -29,5 +29,8 @@ func main() {
 
 	//Facade.Test()
 
-	Filter.Test()
+	//Filter.Test()
+
+	ChainOfResponsibility.Test()
+
 }
