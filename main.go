@@ -1,7 +1,7 @@
 package main
 
 import (
-	"Golang-Design-Pattern/Behavioral/ChainOfResponsibility"
+	"Golang-Design-Pattern/Behavioral/Command"
 )
 
 func main() {
@@ -31,6 +31,8 @@ func main() {
 
 	//Filter.Test()
 
-	ChainOfResponsibility.Test()
+	//ChainOfResponsibility.Test()
+
+	Command.Test()
 
 }

@@ -73,3 +73,8 @@ func Test() {
 	warningLogger.message("this is warning", WARNING)
 	warningLogger.message("not a warning", FUNCTIONAL_ERROR)
 }
+
+/*
+refer: https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern
+在这里warningLogger是后续Logger的入口
+*/

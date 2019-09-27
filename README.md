@@ -21,6 +21,7 @@ some design patterns implemented by Golang
 
 ### Behavioral
 - ChainOfResponsibility
+- Command
 
 ### todo
 - [x] Abstract Factory Pattern 
