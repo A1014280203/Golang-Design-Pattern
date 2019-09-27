@@ -1,7 +1,7 @@
 package main
 
 import (
-	"Golang-Design-Pattern/Behavioral/Command"
+	"Golang-Design-Pattern/Behavioral/Interpreter"
 )
 
 func main() {
@@ -33,6 +33,8 @@ func main() {
 
 	//ChainOfResponsibility.Test()
 
-	Command.Test()
+	//Command.Test()
+
+	Interpreter.Test()
 
 }
