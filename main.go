@@ -1,8 +1,6 @@
 package main
 
-import (
-	"Golang-Design-Pattern/Behavioral/Interpreter"
-)
+import "Golang-Design-Pattern/Behavioral/Iterator"
 
 func main() {
 	//Factory.Test()
@@ -35,6 +33,11 @@ func main() {
 
 	//Command.Test()
 
-	Interpreter.Test()
+	//Interpreter.Test()
 
+	//Iterator.Test()
+
+	//Iterator.Test2()
+
+	Iterator.Test3()
 }

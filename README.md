@@ -22,9 +22,8 @@ some design patterns implemented by Golang
 ### Behavioral
 - ChainOfResponsibility
 - Command
+- Iterator
 
 ### todo
-- [x] Abstract Factory Pattern 
-- [x] Builder Pattern
-- [x] Adapter
+- [ ] Generator
 
