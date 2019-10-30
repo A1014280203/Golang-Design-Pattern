@@ -27,4 +27,4 @@ some design patterns implemented by Golang
 
 ### todo
 #### Behavioral
-[ ] Memento
+- [ ] Memento
