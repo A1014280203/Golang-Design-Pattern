@@ -38,3 +38,7 @@ func Test() {
 		fmt.Println(names.Next())
 	}
 }
+
+/*
+类似Java语言中的迭代器
+*/

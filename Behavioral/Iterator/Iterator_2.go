@@ -33,3 +33,9 @@ func Test2() {
 		fmt.Println(name)
 	}
 }
+
+/*
+参照Python风格和Go风格的迭代器
+- Python风格指返回一个Exception实例表示迭代结束
+- Go风格指在返回值的同时返回错误状态，在这里用err代替Python中的Exception
+*/

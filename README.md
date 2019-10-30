@@ -23,7 +23,8 @@ some design patterns implemented by Golang
 - ChainOfResponsibility
 - Command
 - Iterator
+- Mediator
 
 ### todo
-- [ ] Generator
-
+#### Behavioral
+[ ] Memento

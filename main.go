@@ -1,6 +1,6 @@
 package main
 
-import "Golang-Design-Pattern/Behavioral/Iterator"
+import "Golang-Design-Pattern/Behavioral/Mediator"
 
 func main() {
 	//Factory.Test()
@@ -39,5 +39,7 @@ func main() {
 
 	//Iterator.Test2()
 
-	Iterator.Test3()
+	//Iterator.Test3()
+
+	Mediator.Test()
 }

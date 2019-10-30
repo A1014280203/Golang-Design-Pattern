@@ -32,3 +32,7 @@ func Test3() {
 		fmt.Println(v)
 	}
 }
+
+/*
+Python风格的迭代器，即返回一个可迭代实例，在这里是用的Go的数组
+*/
