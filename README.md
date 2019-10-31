@@ -32,7 +32,7 @@ some design patterns implemented by Golang
 
 
 ### refer:
-> https://github.com/sevenelevenlee/go-patterns
-> https://github.com/bvwells/go-patterns
-> https://www.runoob.com/design-pattern/design-pattern-tutorial.html
-> https://en.wikipedia.org/wiki/Design_Patterns
+> 1. https://github.com/sevenelevenlee/go-patterns
+> 2. https://github.com/bvwells/go-patterns
+> 3. https://www.runoob.com/design-pattern/design-pattern-tutorial.html
+> 4. https://en.wikipedia.org/wiki/Design_Patterns
