@@ -24,7 +24,15 @@ some design patterns implemented by Golang
 - Command
 - Iterator
 - Mediator
+- Memento
 
 ### todo
 #### Behavioral
-- [ ] Memento
+- [ ] Observer
+
+
+### refer:
+> https://github.com/sevenelevenlee/go-patterns
+> https://github.com/bvwells/go-patterns
+> https://www.runoob.com/design-pattern/design-pattern-tutorial.html
+> https://en.wikipedia.org/wiki/Design_Patterns
