@@ -5,6 +5,7 @@ import (
 	"time"
 )
 
+// Mediator
 type ChatRoom struct {
 	users []*User
 }
@@ -67,5 +68,6 @@ func Test() {
 }
 
 /*
-通过
+增加中介成员，作为其他成员沟通的桥梁
+可以用来解耦，但实际使用，中介成员需要做很多优化以确保吞吐量
 */

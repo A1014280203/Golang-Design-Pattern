@@ -1,6 +1,6 @@
 package main
 
-import "Golang-Design-Pattern/Behavioral/Mediator"
+import "Golang-Design-Pattern/Behavioral/Memento"
 
 func main() {
 	//Factory.Test()
@@ -41,5 +41,7 @@ func main() {
 
 	//Iterator.Test3()
 
-	Mediator.Test()
+	//Mediator.Test()
+
+	Memento.Test()
 }
