@@ -36,6 +36,8 @@ some Design Patterns implemented by Golang
 Q1: Observer 模式是否增加了耦合？
 Q2: Visitor 的组织方式的逻辑
 
+#### 回顾设计模式 OR 浏览六大设计原则？
+
 ### refer:
 > 1. https://github.com/sevenelevenlee/go-patterns
 > 2. https://github.com/bvwells/go-patterns
