@@ -28,14 +28,13 @@ some Design Patterns implemented by Golang
 - Observer
 - State
 - Strategy
+- Template Method
+- Visitor
 
 ### todo
-#### Behavioral
-- [ ] Template Method
-- [ ] Visitor
-
 #### Question
 Q1: Observer 模式是否增加了耦合？
+Q2: Visitor 的组织方式的逻辑
 
 ### refer:
 > 1. https://github.com/sevenelevenlee/go-patterns

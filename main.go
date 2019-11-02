@@ -1,6 +1,6 @@
 package main
 
-import "Golang-Design-Pattern/Behavioral/Strategy"
+import "Golang-Design-Pattern/Behavioral/Visitor"
 
 func main() {
 	//Factory.Test()
@@ -49,5 +49,7 @@ func main() {
 
 	//State.Test()
 
-	Strategy.Test()
+	//Strategy.Test()
+
+	Visitor.Test()
 }
