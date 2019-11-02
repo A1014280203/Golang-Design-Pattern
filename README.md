@@ -27,10 +27,10 @@ some Design Patterns implemented by Golang
 - Memento
 - Observer
 - State
+- Strategy
 
 ### todo
 #### Behavioral
-- [ ] Strategy
 - [ ] Template Method
 - [ ] Visitor
 
