@@ -1,7 +1,7 @@
 # Golang-Design-Pattern
-some design patterns implemented by Golang
+some Design Patterns implemented by Golang
 
-### CreationalPatterns
+### Creational Patterns
 - Factory Pattern
 - Singleton Pattern
 - Prototype Pattern
@@ -25,11 +25,17 @@ some design patterns implemented by Golang
 - Iterator
 - Mediator
 - Memento
+- Observer
+- State
 
 ### todo
 #### Behavioral
-- [ ] Observer
+- [ ] Strategy
+- [ ] Template Method
+- [ ] Visitor
 
+#### Question
+Q1: Observer 模式是否增加了耦合？
 
 ### refer:
 > 1. https://github.com/sevenelevenlee/go-patterns

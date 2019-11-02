@@ -1,6 +1,6 @@
 package main
 
-import "Golang-Design-Pattern/Behavioral/Memento"
+import "Golang-Design-Pattern/Behavioral/State"
 
 func main() {
 	//Factory.Test()
@@ -43,5 +43,9 @@ func main() {
 
 	//Mediator.Test()
 
-	Memento.Test()
+	//Memento.Test()
+
+	//Observer.Test()
+
+	State.Test()
 }
