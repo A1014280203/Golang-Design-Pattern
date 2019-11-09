@@ -1,6 +1,6 @@
 # Golang-Design-Pattern
 
-### Creational Patterns
+### Creational
 - [Abstract Factory][1]
 - [Builder][2]
 - [Factory][3]
