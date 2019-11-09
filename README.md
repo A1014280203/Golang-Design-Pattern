@@ -1,5 +1,4 @@
 # Golang-Design-Pattern
-## Some Design Patterns Implemented By Golang
 
 ### Creational Patterns
 - [Abstract Factory][1]
@@ -32,7 +31,7 @@
 - [Template Method][24]
 - [Visitor][25]
 
-## Refer:
+### Refer:
 > 1. https://github.com/sevenelevenlee/go-patterns
 > 2. https://github.com/bvwells/go-patterns
 > 3. https://www.runoob.com/design-pattern/design-pattern-tutorial.html
